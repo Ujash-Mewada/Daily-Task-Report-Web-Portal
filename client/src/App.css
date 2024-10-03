@@ -1,0 +1,253 @@
+/* App.css */
+
+/* General styles */
+/* App.css */
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  /* background-image: url('https://static9.depositphotos.com/1583396/1080/i/450/depositphotos_10808903-stock-photo-advertisement-poster-background.jpg'); */
+}
+
+/* Container styles */
+.login-container {
+  max-width: 350px; 
+  width: 100%; 
+  margin: 20px; 
+  padding: 20px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-container {
+  max-width: 350px; 
+  width: 100%; 
+  margin: 20px; 
+  padding: 20px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+h2 {
+  color: #333;
+  text-align: center;
+}
+
+/* Form styles */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align the form elements */
+}
+
+input {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%; /* Make input fields take full width */
+}
+
+/* Button styles */
+button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 5px 20px; /* Adjust padding for smaller button */
+  border-radius: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 35%; /* Make the button take full width */
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #000000;
+}
+
+/* Dashboard styles */
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 350px; 
+  width: 100%; 
+  margin: 20px; 
+  padding: 20px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.task-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 350px; 
+  width: 100%; 
+  margin: 20px; 
+  padding: 20px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-edit-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 350px; 
+  width: 100%; 
+  margin: 20px; 
+  padding: 20px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Link styles */
+.create-task-link,
+.task-list {
+  margin: 10px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+
+/* Task form styles */
+.task-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-form input,
+.task-form select {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Task list styles */
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.task-list li:last-child {
+  border-bottom: none;
+}
+
+/* Logout button styles */
+.logout-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #c82333;
+}
+
+.logout-button-dashboard {
+  background-color: #c82333;
+}
+
+
+.createTaskReport-button {
+  background-color: #3d34e6;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.task-list {
+  background-color: #22cc0ff9;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task-list:hover {
+  background-color: #58e629;
+}
+
+.create-task-link {
+  background-color: #22cc0ff9;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.create-task-link:hover {
+  background-color: #58e629;
+}
+
+
+.task-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.task-table th, .task-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.task-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.task-table td {
+    vertical-align: middle;
+}
+
+.edit-link {
+    color: blue;
+    text-decoration: underline;
+    margin-right: 10px;
+}
+
+.delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 12px;
+}
+
+.delete-button:hover {
+    background-color: darkred;
+}
